@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>CC1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>CC1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>EMBU_Solution_Delivery_Checklists1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CC2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>CC2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>EMBU_Solution_Delivery_Checklists2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Checklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Checklist</label>
+        <picklist>
+            <controllingField>LSEF_Stage__c</controllingField>
+            <picklistValues>
+                <fullName>WIP/CCB Approval</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Project Charter</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BOC Presentation</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Solution Evaluation (SEC)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business High-level Requirement</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Supplier Evaluation(SERF)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract approval</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Project Overall Communication Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PM Risk Assessment</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Project Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PIC Submission &amp; Approval</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Validation Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Update the WIP for SD approval</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>System Requirement Document</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Requirement Traceability Matrix (RTM)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Supplier Management Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>System Design Document</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Source Code</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test case &amp; script</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unit Testing Result</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Integration Testing Result</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop</controllingFieldValues>
+                <controllingFieldValues>Develop (a)</controllingFieldValues>
+                <controllingFieldValues>Develop (ch)</controllingFieldValues>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>System Testing Result (Issue List, Summary)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UAT Testing Result (Issue List, Summary)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Usability Testing</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Testing Summary</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Validation Report/Local verification Report</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deployment Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training materials &amp; Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OCM Plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>System Admin Document/Local Service support  model</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test</controllingFieldValues>
+                <controllingFieldValues>Test (a)</controllingFieldValues>
+                <controllingFieldValues>Test (ch)</controllingFieldValues>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Data Conversion/Migration Summary</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business continuity plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Disaster Recovery Plan (DRP)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Final START Report</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Close project in WIP</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lessons Learnt</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GEL Upload</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Update Cross 2 information</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Close e-CIR / Finance activities</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Transition CR/CCB CR</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Post go-live survey / evaluation</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy</controllingFieldValues>
+                <controllingFieldValues>Deploy (a)</controllingFieldValues>
+                <controllingFieldValues>Deploy (ch)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ITCG Approval</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Use mock-ups  and wireframes to drive requirements understanding and decisions during the planning stage</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enforce change control process to ensure that impact of changes in requirements are properly managed with approval and revision of schedule based on the scale of the change.</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Identify the priority module or function with the needed application (if possible)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ensure timeline pressures do not compromise the time required to perform quality related tasks.</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ensure timelines for critical tasks such as delivery of content for websites have been agreed upon and business resources are available to perform these tasks.</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ensure that public holidays and vacations for key stakeholders are considered in the project plan, especially for tasks on the critical chain</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Get affiliates schedule ahead during the planning stage</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Confirm with business stakeholders their estimation for business tasks and must not put ad-hoc estimates based on any assumptions</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Resource for UX designer - This resource should be able to provide better design, graphics and can  provide usability testing as well</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ensure business stakeholders clearly understand technical limitations, feasibility and also the behaviour of the final solution for better alignment</fullName>
+                <default>false</default>
+                <controllingFieldValues>Develop (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Have dedicated tester for system testing</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SSD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Web Checklist</fullName>
+                <default>false</default>
+                <controllingFieldValues>Test (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live_ SAM _&gt; Data Conversion/Migration Summary</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Go-live (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live_ SAM _&gt; GEL Upload</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Go-live (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live_ SAM _&gt; Update Cross 2 information</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Go-live (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live_ SAM _&gt; Business continuity plan</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Go-live (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live_ SAM _&gt; Disaster Recovery Plan (DRP)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Go-live (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live_ SAM _&gt; Creating sanity checklist after migration to each environment (DEV, QA, PRD)</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Go-live (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live_ SAM _&gt; Identify the impact of the delay and lost days due to holidays and events</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Go-live (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp_ SAM _&gt; Final START Report</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Post Imp (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp_ SAM _&gt; CI update for next Periodic Review /Access Roster Review date</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Post Imp (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp_ SAM _&gt; Close project in WIP</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Post Imp (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp_ SAM _&gt; Lessons Learnt</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Post Imp (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp_ SAM _&gt; Close e-CIR / Finance activities</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Post Imp (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp_ SAM _&gt; Transition CR/CCB CR</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Post Imp (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp_ SAM _&gt; Post go-live survey / evaluation</fullName>
+                <default>false</default>
+                <controllingFieldValues>Deploy - Post Imp (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Alignment Session</fullName>
+                <default>false</default>
+                <controllingFieldValues>Change Control</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Is there New Timeline?</fullName>
+                <default>false</default>
+                <controllingFieldValues>Change Control</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Is there Cost Impact?</fullName>
+                <default>false</default>
+                <controllingFieldValues>Change Control</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Originated by Business</fullName>
+                <default>false</default>
+                <controllingFieldValues>Change Control</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Originated by IT</fullName>
+                <default>false</default>
+                <controllingFieldValues>Change Control</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>System Owner and System Custodian Training</fullName>
+                <default>false</default>
+                <controllingFieldValues>Propose</controllingFieldValues>
+                <controllingFieldValues>Propose (a)</controllingFieldValues>
+                <controllingFieldValues>Propose (ch)</controllingFieldValues>
+                <controllingFieldValues>Propose (stkr)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Log ARR and PR CAPA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LSEF_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>LSEF Stage</label>
+        <picklist>
+            <controllingField>Region__c</controllingField>
+            <picklistValues>
+                <fullName>Change Control</fullName>
+                <default>false</default>
+                <controllingFieldValues>LACAM &amp; BR</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Propose</fullName>
+                <default>false</default>
+                <controllingFieldValues>LACAM &amp; BR</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Propose (a)</fullName>
+                <default>false</default>
+                <controllingFieldValues>ANZ</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Propose (ch)</fullName>
+                <default>false</default>
+                <controllingFieldValues>CHINA</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Propose (stkr)</fullName>
+                <default>false</default>
+                <controllingFieldValues>SAMETA-TW-KR-RIC</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Develop</fullName>
+                <default>false</default>
+                <controllingFieldValues>LACAM &amp; BR</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Develop (a)</fullName>
+                <default>false</default>
+                <controllingFieldValues>ANZ</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Develop (ch)</fullName>
+                <default>false</default>
+                <controllingFieldValues>CHINA</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Develop (stkr)</fullName>
+                <default>false</default>
+                <controllingFieldValues>SAMETA-TW-KR-RIC</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <controllingFieldValues>LACAM &amp; BR</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test (a)</fullName>
+                <default>false</default>
+                <controllingFieldValues>ANZ</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test (ch)</fullName>
+                <default>false</default>
+                <controllingFieldValues>CHINA</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test (stkr)</fullName>
+                <default>false</default>
+                <controllingFieldValues>SAMETA-TW-KR-RIC</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy</fullName>
+                <default>false</default>
+                <controllingFieldValues>LACAM &amp; BR</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Go-live (stkr)</fullName>
+                <default>false</default>
+                <controllingFieldValues>SAMETA-TW-KR-RIC</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy - Post Imp (stkr)</fullName>
+                <default>false</default>
+                <controllingFieldValues>SAMETA-TW-KR-RIC</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy (a)</fullName>
+                <default>false</default>
+                <controllingFieldValues>ANZ</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deploy (ch)</fullName>
+                <default>false</default>
+                <controllingFieldValues>CHINA</controllingFieldValues>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <picklist>
+            <picklistValues>
+                <fullName>CHINA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LACAM &amp; BR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAMETA-TW-KR-RIC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ANZ</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SD_Leader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>SD Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>EMBU_Solution_Delivery_Checklists</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WIP_number__c</fullName>
+        <externalId>false</externalId>
+        <label>WIP number</label>
+        <length>20</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>EMBU Solution Delivery Checklist</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>WIP_number__c</columns>
+        <columns>Region__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LSEF_Stage__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Project name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>EMBU Solution Delivery Checklists</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>WIP_number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LSEF_Stage__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Region__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SD_Leader__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WIP_number__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SD_Leader__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LSEF_Stage__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATED_DATE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>WIP_number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Region__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SD_Leader__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LSEF_Stage__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

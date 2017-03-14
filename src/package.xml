@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist__c.Approval_CHKlist</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>EMBU_SD_Chklist_sent_to_notify</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist__c-EMBU Solution Delivery Checklist Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist_Developer</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist__c.templatePostApproval</members>
+        <name>PostTemplate</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>EMBU_Solution_Delivery_Checklist__c</members>
+        <name>Workflow</name>
+    </types>
+    <version>37.0</version>
+</Package>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EMBU Solution Delivery Checklist</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EMBU Solution Delivery Checklists</value>
+    </caseValues>
+    <fields>
+        <label><!-- CC1 --></label>
+        <name>CC1__c</name>
+        <relationshipLabel><!-- EMBU Solution Delivery Checklists (CC1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CC2 --></label>
+        <name>CC2__c</name>
+        <relationshipLabel><!-- EMBU Solution Delivery Checklists (CC2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Checklist --></label>
+        <name>Checklist__c</name>
+        <picklistValues>
+            <masterLabel>BOC Presentation</masterLabel>
+            <translation><!-- BOC Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Alignment Session</masterLabel>
+            <translation><!-- Business Alignment Session --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business High-level Requirement</masterLabel>
+            <translation><!-- Business High-level Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business continuity plan</masterLabel>
+            <translation><!-- Business continuity plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close e-CIR / Finance activities</masterLabel>
+            <translation><!-- Close e-CIR / Finance activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close project in WIP</masterLabel>
+            <translation><!-- Close project in WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirm with business stakeholders their estimation for business tasks and must not put ad-hoc estimates based on any assumptions</masterLabel>
+            <translation><!-- Confirm with business stakeholders their estimation for business tasks and must not put ad-hoc estimates based on any assumptions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract approval</masterLabel>
+            <translation><!-- Contract approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Conversion/Migration Summary</masterLabel>
+            <translation><!-- Data Conversion/Migration Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live_ SAM _&gt; Business continuity plan</masterLabel>
+            <translation><!-- Deploy - Go-live_ SAM _&gt; Business continuity plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live_ SAM _&gt; Creating sanity checklist after migration to each environment (DEV, QA, PRD)</masterLabel>
+            <translation><!-- Deploy - Go-live_ SAM _&gt; Creating sanity checklist after migration to each environment (DEV, QA, PRD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live_ SAM _&gt; Data Conversion/Migration Summary</masterLabel>
+            <translation><!-- Deploy - Go-live_ SAM _&gt; Data Conversion/Migration Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live_ SAM _&gt; Disaster Recovery Plan (DRP)</masterLabel>
+            <translation><!-- Deploy - Go-live_ SAM _&gt; Disaster Recovery Plan (DRP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live_ SAM _&gt; GEL Upload</masterLabel>
+            <translation><!-- Deploy - Go-live_ SAM _&gt; GEL Upload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live_ SAM _&gt; Identify the impact of the delay and lost days due to holidays and events</masterLabel>
+            <translation><!-- Deploy - Go-live_ SAM _&gt; Identify the impact of the delay and lost days due to holidays and events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live_ SAM _&gt; Update Cross 2 information</masterLabel>
+            <translation><!-- Deploy - Go-live_ SAM _&gt; Update Cross 2 information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp_ SAM _&gt; CI update for next Periodic Review /Access Roster Review date</masterLabel>
+            <translation><!-- Deploy - Post Imp_ SAM _&gt; CI update for next Periodic Review /Access Roster Review date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp_ SAM _&gt; Close e-CIR / Finance activities</masterLabel>
+            <translation><!-- Deploy - Post Imp_ SAM _&gt; Close e-CIR / Finance activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp_ SAM _&gt; Close project in WIP</masterLabel>
+            <translation><!-- Deploy - Post Imp_ SAM _&gt; Close project in WIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp_ SAM _&gt; Final START Report</masterLabel>
+            <translation><!-- Deploy - Post Imp_ SAM _&gt; Final START Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp_ SAM _&gt; Lessons Learnt</masterLabel>
+            <translation><!-- Deploy - Post Imp_ SAM _&gt; Lessons Learnt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp_ SAM _&gt; Post go-live survey / evaluation</masterLabel>
+            <translation><!-- Deploy - Post Imp_ SAM _&gt; Post go-live survey / evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp_ SAM _&gt; Transition CR/CCB CR</masterLabel>
+            <translation><!-- Deploy - Post Imp_ SAM _&gt; Transition CR/CCB CR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment Plan</masterLabel>
+            <translation><!-- Deployment Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster Recovery Plan (DRP)</masterLabel>
+            <translation><!-- Disaster Recovery Plan (DRP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enforce change control process to ensure that impact of changes in requirements are properly managed with approval and revision of schedule based on the scale of the change.</masterLabel>
+            <translation><!-- Enforce change control process to ensure that impact of changes in requirements are properly managed with approval and revision of schedule based on the scale of the change. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ensure business stakeholders clearly understand technical limitations, feasibility and also the behaviour of the final solution for better alignment</masterLabel>
+            <translation><!-- Ensure business stakeholders clearly understand technical limitations, feasibility and also the behaviour of the final solution for better alignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ensure that public holidays and vacations for key stakeholders are considered in the project plan, especially for tasks on the critical chain</masterLabel>
+            <translation><!-- Ensure that public holidays and vacations for key stakeholders are considered in the project plan, especially for tasks on the critical chain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ensure timeline pressures do not compromise the time required to perform quality related tasks.</masterLabel>
+            <translation><!-- Ensure timeline pressures do not compromise the time required to perform quality related tasks. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ensure timelines for critical tasks such as delivery of content for websites have been agreed upon and business resources are available to perform these tasks.</masterLabel>
+            <translation><!-- Ensure timelines for critical tasks such as delivery of content for websites have been agreed upon and business resources are available to perform these tasks. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final START Report</masterLabel>
+            <translation><!-- Final START Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEL Upload</masterLabel>
+            <translation><!-- GEL Upload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get affiliates schedule ahead during the planning stage</masterLabel>
+            <translation><!-- Get affiliates schedule ahead during the planning stage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Have dedicated tester for system testing</masterLabel>
+            <translation><!-- Have dedicated tester for system testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITCG Approval</masterLabel>
+            <translation><!-- ITCG Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify the priority module or function with the needed application (if possible)</masterLabel>
+            <translation><!-- Identify the priority module or function with the needed application (if possible) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration Testing Result</masterLabel>
+            <translation><!-- Integration Testing Result --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is there Cost Impact?</masterLabel>
+            <translation><!-- Is there Cost Impact? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is there New Timeline?</masterLabel>
+            <translation><!-- Is there New Timeline? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessons Learnt</masterLabel>
+            <translation><!-- Lessons Learnt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Log ARR and PR CAPA</masterLabel>
+            <translation><!-- Log ARR and PR CAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCM Plan</masterLabel>
+            <translation><!-- OCM Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Originated by Business</masterLabel>
+            <translation><!-- Originated by Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Originated by IT</masterLabel>
+            <translation><!-- Originated by IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIC Submission &amp; Approval</masterLabel>
+            <translation><!-- PIC Submission &amp; Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM Risk Assessment</masterLabel>
+            <translation><!-- PM Risk Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post go-live survey / evaluation</masterLabel>
+            <translation><!-- Post go-live survey / evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Charter</masterLabel>
+            <translation><!-- Project Charter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Overall Communication Plan</masterLabel>
+            <translation><!-- Project Overall Communication Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Plan</masterLabel>
+            <translation><!-- Project Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requirement Traceability Matrix (RTM)</masterLabel>
+            <translation><!-- Requirement Traceability Matrix (RTM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource for UX designer - This resource should be able to provide better design, graphics and can  provide usability testing as well</masterLabel>
+            <translation><!-- Resource for UX designer - This resource should be able to provide better design, graphics and can  provide usability testing as well --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSD</masterLabel>
+            <translation><!-- SSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution Evaluation (SEC)</masterLabel>
+            <translation><!-- Solution Evaluation (SEC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Source Code</masterLabel>
+            <translation><!-- Source Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Evaluation(SERF)</masterLabel>
+            <translation><!-- Supplier Evaluation(SERF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Management Plan</masterLabel>
+            <translation><!-- Supplier Management Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Admin Document/Local Service support  model</masterLabel>
+            <translation><!-- System Admin Document/Local Service support  model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Design Document</masterLabel>
+            <translation><!-- System Design Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Owner and System Custodian Training</masterLabel>
+            <translation><!-- System Owner and System Custodian Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Requirement Document</masterLabel>
+            <translation><!-- System Requirement Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Testing Result (Issue List, Summary)</masterLabel>
+            <translation><!-- System Testing Result (Issue List, Summary) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Plan</masterLabel>
+            <translation><!-- Test Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test case &amp; script</masterLabel>
+            <translation><!-- Test case &amp; script --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Summary</masterLabel>
+            <translation><!-- Testing Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training materials &amp; Plan</masterLabel>
+            <translation><!-- Training materials &amp; Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transition CR/CCB CR</masterLabel>
+            <translation><!-- Transition CR/CCB CR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT Testing Result (Issue List, Summary)</masterLabel>
+            <translation><!-- UAT Testing Result (Issue List, Summary) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Testing Result</masterLabel>
+            <translation><!-- Unit Testing Result --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Cross 2 information</masterLabel>
+            <translation><!-- Update Cross 2 information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update the WIP for SD approval</masterLabel>
+            <translation><!-- Update the WIP for SD approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usability Testing</masterLabel>
+            <translation><!-- Usability Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use mock-ups  and wireframes to drive requirements understanding and decisions during the planning stage</masterLabel>
+            <translation><!-- Use mock-ups  and wireframes to drive requirements understanding and decisions during the planning stage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation Plan</masterLabel>
+            <translation><!-- Validation Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation Report/Local verification Report</masterLabel>
+            <translation><!-- Validation Report/Local verification Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WIP/CCB Approval</masterLabel>
+            <translation><!-- WIP/CCB Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Checklist</masterLabel>
+            <translation><!-- Web Checklist --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- LSEF Stage --></label>
+        <name>LSEF_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Change Control</masterLabel>
+            <translation><!-- Change Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy</masterLabel>
+            <translation><!-- Deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy (a)</masterLabel>
+            <translation><!-- Deploy (a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy (ch)</masterLabel>
+            <translation><!-- Deploy (ch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Go-live (stkr)</masterLabel>
+            <translation><!-- Deploy - Go-live (stkr) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy - Post Imp (stkr)</masterLabel>
+            <translation><!-- Deploy - Post Imp (stkr) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Develop</masterLabel>
+            <translation><!-- Develop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Develop (a)</masterLabel>
+            <translation><!-- Develop (a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Develop (ch)</masterLabel>
+            <translation><!-- Develop (ch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Develop (stkr)</masterLabel>
+            <translation><!-- Develop (stkr) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Propose</masterLabel>
+            <translation><!-- Propose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Propose (a)</masterLabel>
+            <translation><!-- Propose (a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Propose (ch)</masterLabel>
+            <translation><!-- Propose (ch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Propose (stkr)</masterLabel>
+            <translation><!-- Propose (stkr) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test (a)</masterLabel>
+            <translation><!-- Test (a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test (ch)</masterLabel>
+            <translation><!-- Test (ch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test (stkr)</masterLabel>
+            <translation><!-- Test (stkr) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>ANZ</masterLabel>
+            <translation><!-- ANZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHINA</masterLabel>
+            <translation><!-- CHINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LACAM &amp; BR</masterLabel>
+            <translation><!-- LACAM &amp; BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAMETA-TW-KR-RIC</masterLabel>
+            <translation><!-- SAMETA-TW-KR-RIC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SD Leader --></label>
+        <name>SD_Leader__c</name>
+        <relationshipLabel><!-- EMBU Solution Delivery Checklists (SD Leader) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- WIP number --></label>
+        <name>WIP_number__c</name>
+    </fields>
+    <layouts>
+        <layout>EMBU Solution Delivery Checklist Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
